@@ -22,15 +22,15 @@
 
 //#include "modules/videoio/include/opencv2/videoio.hpp"
 
-static inline std::string outputDebugImg  = "/Users/luisvaldivia/Documents/uniSalzburg_1/MultimediaSeminar/debugImages/frame_";
+static inline std::string outputDebugImg  = "/path/to/debugImages/frame_";
 
-static inline std::string outputDebugLandmarker  = "/Users/luisvaldivia/Documents/uniSalzburg_1/MultimediaSeminar/debugLandmarker/frame_";
+static inline std::string outputDebugLandmarker  = "/path/to/debugLandmarker/frame_";
 
-//static inline std::string outputDebugLandmarker  = "/Users/luisvaldivia/Documents/uniSalzburg_1/MultimediaSeminar/debugFingertip/frame_";
+//static inline std::string outputDebugLandmarker  = "/path/to/debugFingertip/frame_";
 
-static inline std::string outputDebugFingertipPath = "/Users/luisvaldivia/Documents/uniSalzburg_1/MultimediaSeminar/fingertips/frame_";
+static inline std::string outputDebugFingertipPath = "/path/to/fingertips/frame_";
 
-static inline std::string modelFreezenPath = "/Users/luisvaldivia/Documents/uniSalzburg_1/MultimediaSeminar/model/swinir_traced_frozen.pt";
+static inline std::string modelFreezenPath = "/path/to/model/swinir_traced_frozen.pt";
 
 static constexpr std::array<std::pair<uint8_t, uint8_t>, 5> fingerPoints = {std::make_pair(4,2), std::make_pair(8,6), std::make_pair(12,10), std::make_pair(16,14), std::make_pair(20,18)};
 
